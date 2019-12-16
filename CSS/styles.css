@@ -129,9 +129,48 @@ body {
 /* Hero-Image Starts Here */
 .hero-image {
   position: absolute;
-  right: 12%;
+  right: 12vw;
   top: 5%;
   width: 480px;
 }
-
 /* Hero-Image Ends Here */
+
+/* Pricing Section Starts Here */
+.pricing {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.pricing__lists {
+  display: inline-block;
+  list-style: none;
+  width: 98vw;
+  margin: auto;
+  text-align: center;
+  padding: 0;
+}
+
+.pricing__list {
+  display: inline-block;
+  background: #c1c1c1;
+  width: 30%;
+  margin: 8px;
+  font-size: 24px;
+}
+
+.pricing__list h1 {
+  display: inline-block;
+  font-family: monospace;
+}
+
+.plan__features {
+  list-style: none;
+  text-align: center;
+  padding: 8px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.select-plan__button {
+  text-align: center;
+  margin-bottom: 16px;
+}

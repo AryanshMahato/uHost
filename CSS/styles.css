@@ -29,6 +29,8 @@ body {
   cursor: pointer;
 }
 
+/* Nav Items Starts */
+
 .navbar {
   display: inline-block;
   position: absolute;
@@ -78,9 +80,11 @@ body {
   transition: 0.25s;
 }
 
-/* Header Ends */
-/* Hero box starts */
+/* Nav Items Ends */
 
+/* Header Ends */
+
+/* Hero box starts */
 .hero-box {
   position: relative;
 }
@@ -90,6 +94,9 @@ body {
   height: 75vh;
 }
 
+/* Hero box Background Ends Here  */
+
+/* Hero-Box Features Starts Here */
 .hero-box__features {
   background: #fff;
   width: 400px;
@@ -120,3 +127,4 @@ body {
   right: 32px;
   margin-top: 3px;
 }
+/* Hero-Box Features Ends Here */

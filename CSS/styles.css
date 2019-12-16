@@ -103,7 +103,7 @@ body {
   height: 330px;
   position: absolute;
   top: 15%;
-  left: 5%;
+  left: 8%;
   border-radius: 25px;
 }
 
@@ -128,3 +128,11 @@ body {
   margin-top: 3px;
 }
 /* Hero-Box Features Ends Here */
+
+/* Hero-Image Starts Here */
+.hero-image {
+  position: absolute;
+  right: 10%;
+  top: 5%;
+  width: 480px;
+}

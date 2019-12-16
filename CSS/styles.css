@@ -110,11 +110,13 @@ body {
 
 .hero-box__feature-list li {
   margin-top: 32px;
+  text-align: center;
+  margin-right: 120px;
 }
 
 .hero-box__feature-list li img {
   position: absolute;
   width: 48px;
-  right: 48px;
+  right: 32px;
   margin-top: 3px;
 }

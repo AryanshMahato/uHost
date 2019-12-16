@@ -137,40 +137,96 @@ body {
 
 /* Pricing Section Starts Here */
 .pricing {
-  margin-top: 64px;
+  margin-top: 32px;
   text-align: center;
+  height: 650px;
 }
 
 .pricing__lists {
+  left: -16px;
+  position: relative;
   display: inline-block;
   list-style: none;
   width: 98vw;
-  margin: auto;
+  height: 400px;
+  margin: 32px auto;
   text-align: center;
   padding: 0;
 }
 
 .pricing__list {
+  position: relative;
   display: inline-block;
-  background: #c1c1c1;
-  width: 30%;
+  background: #eaf0f1;
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 27%;
   margin: 8px;
   font-size: 24px;
+}
+
+.pricing__list.pricing__list--highlighted {
+  height: 550px;
+  width: 30%;
+  background: #7cec9f;
+  top: -20px;
+  margin: 0 40px;
+}
+
+.pricing__list.pricing__list--highlighted h1 {
+  font-size: 48px;
 }
 
 .pricing__list h1 {
   display: inline-block;
   font-family: monospace;
+  font-size: 40px;
+  margin: 40px auto;
 }
 
 .plan__features {
   list-style: none;
   text-align: center;
+  margin: 0 auto;
   padding: 8px;
   font-family: 'Open Sans', sans-serif;
+  background: #dae0e2;
+  width: 90%;
+  border-radius: 25px;
+}
+
+.plan__features.plan__features--highlighted {
+  background: #218f76;
+  color: white;
+}
+
+.plan__features li {
+  margin: 20px 0;
+}
+
+.select-plan__button.select-plan__button--highlighted {
+  margin-bottom: 16px;
+  position: relative;
+  top: 35px;
 }
 
 .select-plan__button {
   text-align: center;
   margin-bottom: 16px;
+  color: #000;
+  background: #01cbc6;
+  font-size: 24px;
+  padding: 16px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 32px;
+  border: 2px solid #218f76;
+  border-radius: 25px;
+  transition: 0.25s;
 }
+
+.select-plan__button:hover {
+  background: #fff;
+  transition: 0.25s;
+}
+/* Pricing Section Ends */

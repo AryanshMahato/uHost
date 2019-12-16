@@ -7,6 +7,8 @@ body {
   padding: 0;
 }
 
+/* Header Starts */
+
 .main-header {
   display: flex;
   align-items: center;
@@ -66,7 +68,7 @@ body {
   color: white;
   margin: auto 0;
   transition: 0.25s;
-  margin: 0 8px;
+  margin: auto 8px;
 }
 
 .start-hosting-button:hover,
@@ -74,4 +76,12 @@ body {
   color: #0a79df;
   background: #fff;
   transition: 0.25s;
+}
+
+/* Header Ends */
+/* Hero box starts */
+
+.hero-box__background {
+  background: #2475b0;
+  height: 75vh;
 }

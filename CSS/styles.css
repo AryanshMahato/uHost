@@ -56,7 +56,6 @@ body {
   cursor: pointer;
   transition: 0.25s;
   border-bottom: 4px solid white;
-  /* padding-bottom: 16px; */
 }
 
 .start-hosting-button {
@@ -79,7 +78,6 @@ body {
   background: #fff;
   transition: 0.25s;
 }
-
 /* Nav Items Ends */
 
 /* Header Ends */
@@ -93,7 +91,6 @@ body {
   background: hsl(205, 66%, 42%);
   height: 75vh;
 }
-
 /* Hero box Background Ends Here  */
 
 /* Hero-Box Features Starts Here */
@@ -136,3 +133,5 @@ body {
   top: 5%;
   width: 480px;
 }
+
+/* Hero-Image Ends Here */

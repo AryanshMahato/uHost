@@ -81,7 +81,40 @@ body {
 /* Header Ends */
 /* Hero box starts */
 
+.hero-box {
+  position: relative;
+}
+
 .hero-box__background {
-  background: #2475b0;
+  background: hsl(205, 66%, 42%);
   height: 75vh;
+}
+
+.hero-box__features {
+  background: #fff;
+  width: 400px;
+  height: 330px;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  border-radius: 25px;
+}
+
+.hero-box__feature-list {
+  list-style: none;
+  font-size: 48px;
+  font-family: sans-serif;
+  position: relative;
+  margin: auto none;
+}
+
+.hero-box__feature-list li {
+  margin-top: 32px;
+}
+
+.hero-box__feature-list li img {
+  position: absolute;
+  width: 48px;
+  right: 48px;
+  margin-top: 6px;
 }

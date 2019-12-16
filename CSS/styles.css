@@ -11,14 +11,14 @@ body {
   display: flex;
   align-items: center;
   position: relative;
-  height: 72px;
+  height: 56px;
   background: #74b9ff;
 }
 
 .navbar-brand {
   display: inline-block;
   font-family: 'Lilita One', cursive;
-  font-size: 40px;
+  font-size: 32px;
   margin-left: 32px;
   font-weight: bold;
 }
@@ -39,7 +39,7 @@ body {
   display: inline-block;
   margin: 0 16px;
   font-family: 'Roboto', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   transition: 0.25s;
   padding: 8px 0px;
   border-bottom: 4px solid transparent;
@@ -58,15 +58,15 @@ body {
 .start-hosting-button {
   text-decoration: none;
   background: #0a79df;
-  padding: 10px 16px;
+  padding: 8px 8px;
   font-family: 'Roboto', sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   border: 2px solid #0a79df;
   border-radius: 50px;
   color: white;
   margin: auto 0;
   transition: 0.25s;
-  margin: 0 16px;
+  margin: 0 8px;
 }
 
 .start-hosting-button:hover,

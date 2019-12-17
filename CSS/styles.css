@@ -275,5 +275,54 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
-
 /* Api Section Ends */
+
+/* Customer Section Starts */
+.customers {
+  margin-top: 240px;
+  position: relative;
+}
+
+.customers__heading {
+  display: flex;
+  font-size: 80px;
+  font-family: 'Roboto', sans-serif;
+  color: #2c3335;
+  margin: 64px auto;
+  justify-content: center;
+}
+
+.customers__heading span {
+  color: #e74292;
+}
+
+.customers__list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.customers__list li {
+  display: inline-block;
+}
+
+.customers__list li:nth-child(1) {
+  margin-right: 32px;
+}
+
+.customer__logo {
+  width: 450px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.customer__logo:hover {
+  width: 500px;
+}
+
+@media (max-width: 1500px) {
+  .customers__heading {
+    font-size: 64px;
+  }
+}
+/* Customer Section Ends */

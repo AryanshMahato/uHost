@@ -162,6 +162,7 @@ body {
   border-radius: 25px;
   width: 27%;
   margin: 8px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.3);
   font-size: 24px;
 }
 
@@ -171,6 +172,7 @@ body {
   background: #7cec9f;
   top: -20px;
   margin: 0 40px;
+  box-shadow: 16px 16px 8px rgba(0, 0, 0, 0.5);
 }
 
 .pricing__list.pricing__list--highlighted h1 {

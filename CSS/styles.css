@@ -237,3 +237,43 @@ body {
   transition: 0.25s;
 }
 /* Pricing Section Ends */
+
+/* Api Section Starts */
+.api-hosting {
+  background: #eaf0f1;
+  width: 90vw;
+  height: 400px;
+  margin: 96px auto;
+  position: relative;
+  padding: 64px;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.api-hosting:hover {
+  width: 95vw;
+  height: 440px;
+}
+
+.api-hosting__description {
+  display: inline-block;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  color: #2c3335;
+}
+
+.api-hosting__description span {
+  display: block;
+}
+
+.api-hosting__image {
+  width: 240px;
+  position: absolute;
+  right: 64px;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Api Section Ends */

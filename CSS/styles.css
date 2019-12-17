@@ -49,6 +49,11 @@ body {
   border-bottom: 4px solid transparent;
 }
 
+.navbar li a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .navbar li:hover,
 .navbar li:active {
   box-sizing: border-box;
